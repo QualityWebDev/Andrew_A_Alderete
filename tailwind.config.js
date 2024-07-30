@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: ['./src/index.html', './src/contact/contact.html', './src/services/serviceOne/service.html', './src/services/serviceTwo/service.html', './src/services/serviceThree/service.html', './src/services/serviceOne/service.js', './src/services/serviceTwo/service.js', './src/services/serviceThree/service.js', './src/components/components.js', './src/articles/articleOne/article.html', './src/articles/articleOne/article.js','./src/articles/articleTwo/article.html', './src/articles/articleTwo/article.js','./src/articles/articleThree/article.html', './src/articles/articleThree/article.js'],
   theme: {
     extend: {
