@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  content: ['./src/index.html', './contact/contact.html', './src/services/serviceOne/service.html', './src/services/serviceTwo/service.html', './src/services/serviceThree/service.html', './src/services/serviceOne/service.js', './src/services/serviceTwo/service.js', './src/services/serviceThree/service.js', './src/components/components.js', './src/articles/articleOne/article.html', './src/articles/articleOne/article.js','./src/articles/articleTwo/article.html', './src/articles/articleTwo/article.js','./src/articles/articleThree/article.html', './src/articles/articleThree/article.js'],
+  content: ['./src/index.html', './contact/contact.html', '/services/serviceOne/service.html', '/services/serviceTwo/service.html', '/services/serviceThree/service.html', '/services/serviceOne/service.js', '/services/serviceTwo/service.js', '/services/serviceThree/service.js', '/components/components.js', '/articles/articleOne/article.html', '/articles/articleOne/article.js','/articles/articleTwo/article.html', '/articles/articleTwo/article.js', '/articles/articleThree/article.html', '/articles/articleThree/article.js'],
   theme: {
     extend: {
       spacing: {
