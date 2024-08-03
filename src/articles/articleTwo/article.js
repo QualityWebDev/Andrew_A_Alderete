@@ -20,7 +20,7 @@ class pageContent extends HTMLElement{
                         <p class="text-slate-900 m-2 ind"><span class="font-bold">${article.content.headings.eight}</span>: ${article.content.paragraphs.nine}</p>      
                         <p class="text-slate-900 m-2 ind"><span class="font-bold">${article.content.headings.nine}</span>: ${article.content.paragraphs.ten}</p> 
                         <p class="text-slate-900 m-2 ind">${article.content.paragraphs.eleven}</p>      
-                        <p class="text-slate-900 m-2 text-center">Want proffessional help? <span class="text-slate-900 underline"><a href="/src/contact/contact.html">Contact us.</a></span></p>
+                        <p class="text-slate-900 m-2 text-center">Want proffessional help? <span class="text-slate-900 underline"><a href="/contact/contact.html">Contact us.</a></span></p>
                     </div>
                 </div>
               </article>
